@@ -49,19 +49,19 @@ pip install scrapy
 book_scraper_folder/
 ├──scrapy.cfg
 ├──books.json
-|                     # List of scraped books
+│                     # List of scraped books
 └──book_scraper/
 │   ├── __pycache__/ 
-│   |
+│   │
 │   ├──__init__.py
 │   ├──items.py               # Defines the data fields for book items
 │   ├──middlewares.py         # Middlewares for processing requests and responses
 │   ├──pipelines.py           # Data processing and storage logic (MongoDB, etc.)
 │   ├──settings.py            # Configuration for the Scrapy project
-|   |
+│   │
 │   └──spiders/
-|      ├──__pycache__/
-|      |
+│      ├──__pycache__/
+│      │
 │      ├──__init__.py
 │      └──books_spider.py   # Spider that scrapes the target website
 │   
