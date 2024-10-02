@@ -48,8 +48,8 @@ pip install scrapy
 ```bash
 book_scraper_folder/
 ├──scrapy.cfg
-├──books.json
-│                     # List of scraped books
+├──books.json                 # List of scraped books
+│
 └──book_scraper/
 │   ├── __pycache__/ 
 │   │
